@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Oxide.Plugins
 {
     [Info("XavWelcomeScreen", "Xavlios", "1.0.0")]
-    [Description("Aethershift Wasteland — sidebar-nav welcome screen")]
+    [Description("WelcomeScreen — sidebar-nav welcome screen")]
     public class XavWelcomeScreen : RustPlugin
     {
         #region Fields
@@ -35,10 +35,10 @@ namespace Oxide.Plugins
             public float  ShowDelay  = 2f;
             public int    MaxPlayers = 100;
 
-            public string ServerName = "Aethershift Wasteland";
+            public string ServerName = "SERVER NAME";
             public string Tagline    = "1.5x Modded  •  Monthly Wipe  •  Active Community";
-            public string DiscordUrl = "discord.gg/2dXxxynzyb";
-            public string WebsiteUrl = "aethershiftstudio.vercel.app";
+            public string DiscordUrl = "discord.gg/XXXXXXXXX";
+            public string WebsiteUrl = "www.google.com";
 
             public List<StatCard> StatCards = new List<StatCard>
             {
