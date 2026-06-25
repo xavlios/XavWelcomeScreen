@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("XavWelcomeScreen", "Xavlios", "1.0.0")]
+    [Info("XavWelcomeScreen", "Xavlios", "1.0.1")]
     [Description("WelcomeScreen — sidebar-nav welcome screen")]
     public class XavWelcomeScreen : RustPlugin
     {
@@ -19,9 +19,9 @@ namespace Oxide.Plugins
         private const string UI_SIDEBAR = "WS_Sidebar";
         private const string UI_CZONE   = "WS_CZone";
         private const string UI_CONTENT = "WS_Content";
-        private const string CMD_CLOSE  = "xavlios.welcomescreen.close";
-        private const string CMD_TAB    = "xavlios.welcomescreen.tab";
-        private const string PERM_SKIP  = "xavlioswelcomescreen.bypass";
+        private const string CMD_CLOSE  = "xav.welcomescreen.close";
+        private const string CMD_TAB    = "xav.welcomescreen.tab";
+        private const string PERM_SKIP  = "xavwelcomescreen.bypass";
 
         private static readonly string[] TabLabels = { "GENERAL", "SERVER RULES", "COMMANDS" };
 
